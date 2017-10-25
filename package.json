@@ -1,0 +1,46 @@
+{
+  "name": "passport-atlassian-connect",
+  "version": "1.0.0",
+  "description": "Passport.js strategy for Atlassian products add-ons",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielHreben/passport-atlassian-connect.git"
+  },
+  "keywords": [
+    "atlassian",
+    "atlassian-jira",
+    "atlassian-bitbucket",
+    "atlassian-connect",
+    "atlassian-connect-addon",
+    "atlassian-connect",
+    "passportjs"
+  ],
+  "author": {
+    "name": "Daniel Hreben",
+    "email": "daniel.hreben@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/DanielHreben/passport-atlassian-connect/issues"
+  },
+  "homepage": "https://github.com/DanielHreben/passport-atlassian-connect#readme",
+  "dependencies": {
+    "atlassian-jwt": "^0.1.5",
+    "passport-strategy": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
