@@ -3,11 +3,8 @@ Passport.js strategy for Atlassian products add-ons
 
 ```javascript
 const strategy = new AtlassianConnectStrategy({
-  options: {
-    localBaseUrl: 'https://your-addon-url.com',
-    product: 'jira',
-    handleKnownErrors: false
-  }
+  baseUrl: 'https://your-addon-url.com',
+  product: 'jira',
 })
 
 const handleInstall = passport.authenticate('atlassian-connect', {
