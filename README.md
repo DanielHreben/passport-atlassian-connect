@@ -1,4 +1,6 @@
 # passport-atlassian-connect
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/DanielHreben/passport-atlassian-connect.svg)](https://greenkeeper.io/)
 Passport.js strategy for Atlassian products add-ons
 
 ```javascript
